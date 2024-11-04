@@ -59,6 +59,7 @@ const Cadastro = () => {
                                 control={control} 
                                 rules={{ required: 'Nome é obrigatório' }} 
                             />
+                            {errors.name && <span>{errors.name.message}</span>}
 
                             <Input 
                                 placeholder="E-mail" 
@@ -67,6 +68,7 @@ const Cadastro = () => {
                                 control={control} 
                                 rules={{ required: 'E-mail é obrigatório' }} 
                             />
+                            {errors.email && <span>{errors.email.message}</span>}
                             
                             <Input 
                                 type="password" 
@@ -76,6 +78,7 @@ const Cadastro = () => {
                                 control={control} 
                                 rules={{ required: 'Senha é obrigatória' }} 
                             />
+                            {errors.senha && <span>{errors.senha.message}</span>}
                             
                             <Button title="Criar minha conta" variant="secondary" type="submit" />
                         </form>
