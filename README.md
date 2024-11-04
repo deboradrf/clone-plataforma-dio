@@ -8,11 +8,11 @@
 Projeto desenvolvido como desafio do Bootcamp DIO que simula um clone da plataforma DIO com tela de login e cadastro.
 
 ### 🎨 Layout
-<img src="">
+<img src="https://github.com/user-attachments/assets/522e8a25-d240-446b-8f13-923e07e38d0b">
 
 ### ✔️ Tecnologias utilizadas
 - Visual Studio Code
 - React
 
 ### 📁 Acesso ao projeto
-Hospedado no Netlify ``
+Hospedado no Netlify `https://clonedio-deboradrf.netlify.app`
