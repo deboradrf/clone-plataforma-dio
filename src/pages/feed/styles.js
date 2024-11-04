@@ -5,7 +5,6 @@ export const Container = styled.main`
     max-width: 80%;
     margin: 0 auto;
     margin-top: 120px;
-
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -29,13 +28,9 @@ export const TitleHighlight = styled.h3`
     line-height: 25px;
     color: #FFFFFF70;
     margin-bottom: 24px;
-
 `
 
 export const Column = styled.div`
     flex:${({flex}) => flex};
     padding-right: 24px;
-
 `
-
-
